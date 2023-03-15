@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "practice-project"
+version = "0.1.0"
+description = ""
+authors = ["Harishkadimi <kadimiharish007@gmail.com>"]
+readme = "README.md"
+packages = [{include = "practice_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
