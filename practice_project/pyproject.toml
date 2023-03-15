@@ -8,6 +8,9 @@ packages = [{include = "practice_project"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+fastapi = "^0.94.1"
+uvicorn = "^0.21.0"
+sqlalchemy = "^2.0.6"
 
 
 [build-system]
