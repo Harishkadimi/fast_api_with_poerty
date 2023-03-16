@@ -11,6 +11,9 @@ python = "^3.11"
 fastapi = "^0.94.1"
 uvicorn = "^0.21.0"
 sqlalchemy = "^2.0.6"
+google-auth = "^2.16.2"
+google-api-python-client = "^2.81.0"
+google-auth-oauthlib = "^1.0.0"
 
 
 [build-system]
